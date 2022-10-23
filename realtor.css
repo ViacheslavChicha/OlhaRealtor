@@ -1,0 +1,76 @@
+body{
+			color: #141414;
+			font-family: Verdana, Helvetica, Arial, sans-serif;
+			text-align: left;
+			width: 100%;
+			background-image: url(images/DSC_1535r.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+}
+
+h1 {
+	font-size: 68px;
+	color: #5B3923;
+	margin-top: 15%;
+	margin-left: 10%;
+	text-align: center;
+}
+.agent {
+	color: #332B23;
+	font-style: italic;
+	font-size: 42px;
+	margin-left: 40%;
+	margin-right: 5%;
+}
+
+.container{
+	display: flex;
+	width: 50%;
+	align-content: center;
+	padding-bottom: 0;
+	padding-top: 10%;
+}
+
+.figure{
+	flex: 1;
+	margin-right: -90%;
+	margin-bottom: 5%;
+	margin-top: 25%;
+	padding-bottom: 0%;
+	position: relative;
+}
+
+.figure-text{
+	display: inline-flex;
+	padding: 40px;
+	margin-right: 20%;
+	margin-left: 10%;
+	margin-top: 50%;
+	height: 100%;
+	width: 100%;
+	background-color: #563D28;
+	color: #fff;
+	line-height: 1.6;
+	width: 100%;
+	min-width: 80%;
+	align-content: flex-end;
+}
+
+ img{
+	width: 330px;
+	height: 495px;
+}
+
+figcaption{
+	display: block;
+	position: absolute;
+	top: 20px;
+	line-height: 1;
+	color: #14171C;
+	font-size: 110%;
+	font-style: italic;
+	left: 23px;
+	font-weight: 600;
+}
+
